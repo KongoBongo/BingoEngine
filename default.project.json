@@ -1,0 +1,32 @@
+{
+  "name": "engine",
+  "globIgnorePaths": ["**/*.spec.lua"],
+  "tree": {
+    "$className": "DataModel",
+
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    },
+
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage"
+    },
+
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    },
+
+    "ServerStorage": {
+      "$path": "src/ServerStorage"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayerScripts"
+      }
+    }
+  }
+}

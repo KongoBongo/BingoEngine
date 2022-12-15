@@ -1,0 +1,24 @@
+{
+    "ClassName": "Folder",
+    "Children": [
+        {
+            "Name": "SendData",
+            "ClassName": "RemoteEvent"
+        },
+
+        {
+            "Name": "GetData",
+            "ClassName": "RemoteFunction"
+        },
+
+        {
+            "Name": "GetCommonData",
+            "ClassName": "BindableFunction"
+        },
+
+        {
+            "Name": "SendCommonData",
+            "ClassName": "BindableEvent"
+        }
+    ]
+}

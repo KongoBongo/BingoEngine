@@ -1,0 +1,7 @@
+std = "roblox"
+
+[lints]
+parenthese_conditions = "allow"
+
+[config]
+exclude = ["external/*", "*.spec.lua"]
