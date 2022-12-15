@@ -152,7 +152,10 @@ end
 function Network.Ping(scope: string, player)
 	if (IsClient) then
 		local s = os.clock()
-		Network.InvokeServer()
+		Network.InvokeServer("Ping")
+		return ((os.clock() - s) / 2)
+	else
+		return player:GetNetworkPing()
 	end
 end
 
